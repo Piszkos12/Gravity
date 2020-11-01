@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <title>Gravity - Just for fun demo</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width">
+    <link rel="shortcut icon" type="image/png" href="/graph/gravity.png" />
+    <script src="/js/gravity.js"></script>
+    <script>
+        function init() {
+            var gravityScene = new GravityScene();
+            gravityScene.add(400, 200, 0, 0, 20, "Earth", "blue");
+            gravityScene.add(400, 100, 2, 0, 10, "Moon", "gray");
+        }
+    </script>
+</head>
+
+<body onload="init()" style="background-color: black;">
+</body>
+
+</html>
